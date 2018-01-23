@@ -9,9 +9,7 @@
   </head>
 
   <body>
-    <%= render 'layouts/navigation' %>
-    <%= render 'layouts/messages', flash: flash %>
-    
-    <%= yield %>
+  <%= render 'shared/navigation' %>
+  <%= render 'shared/messages' %>
   </body>
 </html>

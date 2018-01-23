@@ -6,7 +6,7 @@
         <div class='card-heading'>
           <h2 class='card-title text-center'>
             <%= pluralize(@article.errors.count, 'error') %>
-            prohibited this <%= obj.class %> from being saved:
+            prohibited this <%= @article.class %> from being saved:
           </h2>
           <div class='card-body'>
             <ul>
